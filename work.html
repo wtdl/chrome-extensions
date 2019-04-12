@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>登录</title>
+    <meta name="description" content="登录">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div id="app">
+    <div class="login" style="display: none">
+        <h2>物流查询登录</h2>
+        <form class="form" method="post" action="#" role="login">
+            <p><input type="text" name="username" placeholder="username"></p>
+            <p><input type="password" name="password" placeholder="password"></p>
+            <p><input type="submit" value="login"></p>
+        </form>
+    </div>
+    <div class="reg" style="display: none">
+        <h2>物流查询注册</h2>
+        <form class="form" method="post" action="#" role="reg">
+            <p><input type="text" name="username" placeholder="username"></p>
+            <p><input type="password" name="password" placeholder="password"></p>
+            <p><input type="email" name="email" placeholder="email"></p>
+            <p><input type="submit" value="register"></p>
+        </form>
+    </div>
+    <div class="express">
+        <h2>单号查询</h2>
+        <form class="form" method="post" action="#" role="express">
+            <p><input type="text" name="member" placeholder="编号"></p>
+            <p><input type="submit" class="search" value="搜索"></p>
+        </form>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/content-script.js"></script>
+</div>
+</body>
+</html>
